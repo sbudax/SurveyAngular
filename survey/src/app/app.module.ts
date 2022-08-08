@@ -3,13 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AuthModule } from './auth/auth.module';
-import { PrivateModule } from './private/private.module';
-import { PublicModule } from './public/public.module';
+import { AuthModule } from './components/auth/auth.module';
+import { PrivateModule } from './components/private/private.module';
+import { PublicModule } from './components/public/public.module';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { ReportpageComponent } from './pages/reportpage/reportpage.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent,
+    ReportpageComponent
   ],
   imports: [
     BrowserModule,

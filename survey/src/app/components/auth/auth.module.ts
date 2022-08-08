@@ -5,7 +5,6 @@ import { RegisterComponent } from './register/register.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthComponent } from './auth/auth.component';
 import { NavComponent } from './nav/nav.component';
-import { ServiceComponent } from './service/service.component';
 
 const routes: Routes = [
   {
